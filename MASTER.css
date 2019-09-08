@@ -1,0 +1,499 @@
+body{
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: #F5F9FA;
+}
+.button-container{
+	width: 430px;
+	margin: 10px auto 10px auto;
+}
+.button-default{
+	height: 50px;
+	width: 180px;
+	color: white;
+	background-color: #E3B23C;
+	border: none;
+	margin: 0 5px 0 5px;
+	display: inline-block;
+	font-size: 18px;
+	box-shadow: 0px 8px 20px #C6C5B4;
+	/* transition-duration: 1s; */
+}
+
+.button-default-login{
+	height: 50px;
+	width: 180px;
+	color: white;
+	background-color: #E3B23C;
+	border: none;
+	display: inline-block;
+	font-size: 18px;
+	box-shadow: 0px 8px 20px #C6C5B4;
+	margin: 30px auto 0 auto; 
+	display: block;
+	/* transition-duration: 1s; */
+}
+
+.button-default-login:hover{
+	height: 50px;
+	width: 180px;
+	color: white;
+	background-color: #E3B23C;
+	border: none;
+	box-shadow: 0px 0px 20px #C6C5B4;
+	transition-duration: 1s;
+	display: inline-block;
+	font-size: 18px;
+	margin: 30px auto 0 auto; 
+	display: block;
+}
+
+.button-default:hover{
+	height: 50px;
+	width: 180px;
+	color: white;
+	background-color: #E3B23C;
+	border: none;
+	margin: -2px 5px 0 5px;
+	box-shadow: 0px 0px 20px #C6C5B4;
+	transition-duration: 1s;
+	display: inline-block;
+	font-size: 18px;
+}
+
+.button-over-image{
+	position: absolute;
+	top: 40px; 
+	left: 30px;
+}
+
+.content{
+  display: flex;
+	height: auto;
+	background-color: #EDEBD7;
+}
+
+.content-main{
+    flex: 90%;
+}
+
+.sidebar{
+	flex: 10%; 
+	background-color: #7DB7BE; 
+	height: 100vh; 
+	position: relative;
+}
+
+p{
+	display: block; 
+	text-align: center; 
+	text-transform: uppercase; 
+	margin: 100px 0 30px 0;
+}
+
+p > a{
+	display: block; 
+	font-weight: bold; 
+	margin: 90px 0 40px 0;
+	text-decoration: underline; 
+	color:white;
+	padding: 10px;
+}
+
+.logout{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	margin: 0 auto 10px auto;
+	display: block;
+}
+
+
+
+form{
+	margin-top: 50px;
+	padding-top: 20px;
+	background-color: rgb(255, 255, 255); 
+	width: 450px; 
+	margin-left: auto; 
+	margin-right: auto; 
+	display: block; 
+	height: 400px;
+	
+}
+
+input{
+	border: none;
+	box-shadow: 0px 8px 20px #C6C5B4;
+	outline: 0px solid #E3B23C;
+	
+}
+
+input:hover{
+	animation: bounce linear 2s infinite;
+	border: none;
+	outline: 1px solid #E3B23C;
+	box-shadow: 0px 8px 20px #C6C5B4;
+	transition-duration: 1s;
+}
+
+ul{ 
+	list-style:none; 
+	margin-top:5px; 
+	display: block; 
+	margin-bottom: 50px;
+}
+
+ul li{ 
+	display:block; 
+	float:left; 
+	width:330px;
+}
+
+ul li label{ 
+	font-weight: bolder; 
+	float:left; 
+	padding:10px;
+}
+ul li input{ 
+	float:right; 
+	margin-right:30px; 
+	padding:10px; 
+	font-family: Georgia, Times, serif; 
+	width:150px;
+}
+
+li{
+	margin-bottom: 30px;
+}
+
+li input:focus{ 
+	border: none;
+}
+
+fieldset{ 
+	padding:10px; 
+	border: none;
+	background-color: rgb(255, 255, 255);
+	width:400px; 
+	overflow:auto;
+	margin:10px;
+	
+}
+
+legend{ 
+	color:#000000; 
+	margin:0 10px 0 0; 
+	padding: 0 5px; 
+	font-size:14pt; 
+	font-weight:bold; 
+}
+
+label span{ 
+	color:#ff0000; 
+}
+
+label {
+	color: black;
+}
+
+ul li span{
+	color: black; 
+	font-weight: bold;
+}
+
+imput#submit{
+	width: 248px;
+}
+
+.BTN{
+	padding: 5px; 
+	font-weight: bold; 
+	text-align: center; 
+	background-color: #7DB7BE;
+	color: white;
+}
+
+.BTN a{
+	padding: 5px; 
+	color: #FFF; 
+	font-weight: bold; 
+	text-align: center;
+	/* background: #eee;*/
+}
+
+h1{
+	text-align:center; 
+	color: #E3B23C; 
+	font-size: 40pt;
+}
+
+.hover{
+	background-color: #000; 
+	color: #fff;
+}
+
+.create{
+	font-size:10pt; 
+	text-decoration: none; 
+	display:block; 
+	float:right;
+}
+
+.create:hover{
+	font-size:10pt; 
+	text-decoration: none; 
+	display:block; 
+	float:right;
+	border-top-right-radius: 0px;
+	transition-duration: 1s;
+	transition-duration: 1;
+	transform: scale(1.1);
+}
+
+
+
+/* gallery category tabs */
+
+/* Style the tab */
+.tab {
+    overflow: auto;
+    border: none;
+    background-color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	padding: 10px 30px 10px 30px;
+    transition: 0.3s;
+	font-size: 17px;
+
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    border-bottom: 3px solid #7FB7BE;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+	border-bottom: 3px solid #7FB7BE;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: none;
+    border-top: none;
+}
+
+
+
+/* IMAGE DISPLAY */
+.allimages{
+	position:relative;
+	display:inline-block;
+	flex-wrap: wrap;
+	padding: 0 4px;
+	color: white !important;
+}
+.row > img{
+	margin: 20px;
+	object-fit: cover;
+	display: inline;
+	vertical-align: top;
+}
+
+.imagepopup{
+	pointer-events: none;
+	width:97.5%;
+	height:210px;
+	background:rgba(0,0,0,.2);
+	color: black;
+	position:absolute;
+	top:45px;
+	left:4px;
+	display:inline-block;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	text-align:center;
+	padding:0px;
+	font-size:20px;
+	opacity: 0;
+}
+
+.allimages > a {
+	bottom: 0;
+	color: black;
+}
+
+.allimages:hover .imagepopup{
+	opacity: 1;
+}
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+	flex: 25%;
+	max-width: 25%;
+	padding: 0 4px;
+  }
+  
+  .column img {
+	margin-top: 8px;
+	vertical-align: middle;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+	.column {
+	  flex: 50%;
+	  max-width: 50%;
+	}
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column {
+	  flex: 100%;
+	  max-width: 100%;
+	}
+  }
+
+  .row > .column {
+	padding: 0 8px;
+  }
+  
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* Create four equal columns that floats next to eachother */
+  .column {
+	float: left;
+	width: 25%;
+  }
+  
+
+  /* The Modal (background) */
+  .modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	position: relative;
+	background-color: none;
+	margin: auto;
+	padding: 0;
+	width: 100%;
+	max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: white;
+	position: absolute;
+	top: 10px;
+	right: 25px;
+	font-size: 35px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #999;
+	text-decoration: none;
+	cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+	display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	padding: 16px;
+	margin-top: -50px;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	user-select: none;
+	-webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+  }
+  
+  /* Caption text */
+  .caption-container {
+	text-align: center;
+	background-color: black;
+	padding: 2px 16px;
+	color: white;
+  }
+  
+  img.demo {
+	opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+	opacity: 1;
+  }
+  
+  img.hover-shadow {
+	transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+
